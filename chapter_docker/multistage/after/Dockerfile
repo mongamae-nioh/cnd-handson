@@ -1,6 +1,6 @@
 # Build
 # 
-FROM golang:1.19.3 AS stage
+FROM golang:1.22.6 AS stage
 
 WORKDIR /app
 COPY ./app /app
